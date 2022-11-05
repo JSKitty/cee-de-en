@@ -1,0 +1,14 @@
+[package]
+name = "cee-de-en"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hyper = { version = "0.14.22", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+futures = "0.3"
+brotlic = "0.8.0"
+minify-html = "0.10.3"
+minify-js = "0.4.0"
